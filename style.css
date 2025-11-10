@@ -45,8 +45,10 @@ body {
 }
 
 header {
-    padding: 30px 10px;
+    padding: 0 10px;
+    height: 10vh;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -62,7 +64,7 @@ header {
     align-items: center;
     justify-content: center;
     padding: 40px 0px;
-    height: 89vh;
+    height: 90vh;
 }
 
 #hero-section h1,
@@ -76,7 +78,7 @@ header {
 
 #hero-section img {
     width: 100%;
-    height: auto;
+    height: 40vh;
     margin: 5em 0;
 }
 
