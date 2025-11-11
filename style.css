@@ -128,6 +128,56 @@ header {
     object-fit: cover;
 }
 
+/**/
+.content-sections h2 {
+    font-size: 1.4rem;
+    margin-bottom: 0.6em;
+}
+.content-sections ul {
+    margin-left: 1em;
+}
+
+.content-sections ul li {
+    margin: 0.2em 0;
+}
+
+.content-sections ul li:last-child {
+    margin-bottom: 2em;
+}
+
+.productInfos {
+    padding: 2em 0;
+    background: #eee;
+}
+
+.productLanding__SectionTitle {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.productInfosList__ListItem {
+    font-size: 0.8rem;
+    border-top: 1px solid #aaa;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.productInfosList__Titles {
+    width: 38%;
+}
+
+.productInfosList__ItemText {
+    width: 58%;
+}
+
+.narrow-productInfosList {
+    margin: 0 auto;
+    max-width: 800px;
+}
+/**/
+
 .shapedividers {
     overflow: hidden;
     position: relative;
@@ -239,14 +289,6 @@ footer div div:last-child {
     }
     .content-sections ul {
         margin-left: 3em;
-    }
-
-    .content-sections ul li {
-        margin: 0.2em 0;
-    }
-
-    .content-sections ul li:last-child {
-        margin-bottom: 1em;
     }
 
     .productInfos {
