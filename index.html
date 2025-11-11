@@ -12,6 +12,10 @@
             href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
             rel="stylesheet"
         />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        />
     </head>
     <body>
         <header class="container">
@@ -50,7 +54,47 @@
                     </a>
                 </div>
             </section>
+            <section class="content-sections">
+                <div class="container">
+                    <h2>Osiguranje usjeva i nasada</h2>
+                    <p>
+                        Osigurajte svoje usjeve i plodove vinograda, maslinika
+                        ili voćnjaka od šteta nastalih djelovanjem prirodnih
+                        nepogoda.
+                    </p>
+                </div>
+            </section>
+            <section class="content-sections">
+                <div class="container">
+                    <h2>Osiguranje domaćih životinja</h2>
+                    <p>
+                        Osigurajte se od financijskog gubitka koji može nastat
+                        uslijed bolesti ili smrt domaćih životinja
+                    </p>
+                </div>
+            </section>
         </main>
-        <footer></footer>
+
+        <div class="shapedividers"></div>
+        <footer>
+            <div class="container">
+                <a href="tel:+385996373403"
+                    ><i class="fa-solid fa-phone"></i> +385 99 637 3403</a
+                >
+                <i class="fa-solid fa-location-dot"></i> Zrinska ulica 67,
+                Požega
+                <a href="mailto:cro-p@crosig.hr"
+                    ><i class="fa-solid fa-envelope"></i> cro-p@crosig.hr</a
+                >
+                <div>
+                    Crop © <span id="year">2025</span> - Sva prava pridržana
+                </div>
+            </div>
+        </footer>
     </body>
+
+    <script>
+        const year = document.getElementById('year');
+        year.innerHTML = new Date().getFullYear();
+    </script>
 </html>
